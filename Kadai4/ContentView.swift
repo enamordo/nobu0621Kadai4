@@ -13,13 +13,13 @@ struct CountUpView: View {
     var body: some View {
         VStack {
             HStack {
-                Label(String(number), systemImage: /*@START_MENU_TOKEN@*/"42.circle"/*@END_MENU_TOKEN@*/)
+                Label(String(number), systemImage: "42.circle")
                     .labelStyle(TitleOnlyLabelStyle())
                 Spacer()
             }
             .padding()
             HStack {
-                Button(/*@START_MENU_TOKEN@*/"+1"/*@END_MENU_TOKEN@*/) {
+                Button("+1") {
                     number += 1
                 }
                 Spacer()
