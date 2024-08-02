@@ -13,8 +13,7 @@ struct CountUpView: View {
     var body: some View {
         VStack {
             HStack {
-                Label(String(number), systemImage: "42.circle")
-                    .labelStyle(TitleOnlyLabelStyle())
+                Label(String(number), systemImage: "")
                 Spacer()
             }
             .padding()
