@@ -13,7 +13,7 @@ struct CountUpView: View {
     var body: some View {
         VStack {
             HStack {
-                Label(String(number), systemImage: "")
+                Text(String(number))
                 Spacer()
             }
             .padding()
